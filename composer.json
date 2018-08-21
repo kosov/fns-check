@@ -1,0 +1,35 @@
+{
+  "name": "kosov/fns-check",
+  "description": "",
+  "license": "MIT",
+  "keywords": [
+    "fns",
+    "ФНС",
+    "api",
+    "онлайн-чеки",
+    "проверка чеков"
+  ],
+  "authors": [
+    {
+      "name": "kosov",
+      "email": "akosov@yandex.ru"
+    }
+  ],
+  "require": {
+    "php": "^5.5 || ^7.0",
+    "ext-json": "*",
+    "php-http/client-implementation": "^1.0",
+    "php-http/httplug": "^1.0",
+    "php-http/message-factory": "^1.0",
+    "php-http/discovery": "^1.0"
+  },
+  "require-dev": {
+    "php-http/curl-client": "^1.7",
+    "guzzlehttp/psr7": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "FnsCheck\\": "src"
+    }
+  }
+}
