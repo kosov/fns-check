@@ -1,6 +1,6 @@
 {
   "name": "kosov/fns-check",
-  "description": "",
+  "description": "PHP клиент API ФНС для работы с онлайн-чеками",
   "license": "MIT",
   "keywords": [
     "fns",
