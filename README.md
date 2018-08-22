@@ -14,9 +14,11 @@
 
 Установка даннной библиотеки возможна только через [Composer](https://getcomposer.org/).
 
-Выполните
+Так как библиотека использует HTTP клиент по стандарту [PSR-7](https://www.php-fig.org/psr/psr-7/), то вместе с библиотекой необходимо установить любой из доступных HTTP клиентов или адаптеров. Список поддерживаемых HTTP клиентов – http://docs.php-http.org/en/latest/clients.html. Подробнее об использовании можно почитать [здесь](http://docs.php-http.org/en/latest/httplug/users.html).
+
+Выполните следующую команду (если вы хотите использовать php-http/curl-client в качестве HTTP клиента)
 ```
-composer require kosov/fns-check
+composer require php-http/curl-client kosov/fns-check
 ```
 в директории своего проекта или добавьте
 ```
