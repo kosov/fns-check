@@ -22,7 +22,7 @@ composer require php-http/curl-client guzzlehttp/psr7 php-http/message kosov/fns
 ```
 в директории своего проекта или добавьте
 ```
-"kosov/fns-check": "1.0"
+"kosov/fns-check": "^1.1"
 ```
 в секцию `require` файла `composer.json` вашего проекта.
 
