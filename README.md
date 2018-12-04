@@ -18,7 +18,7 @@
 
 Выполните следующую команду (если вы хотите использовать php-http/curl-client в качестве HTTP клиента)
 ```
-composer require php-http/curl-client kosov/fns-check
+composer require php-http/curl-client guzzlehttp/psr7 php-http/message kosov/fns-check
 ```
 в директории своего проекта или добавьте
 ```
