@@ -1,16 +1,16 @@
 <?php
 
-namespace FnsCheck\request;
+namespace kosov\fnscheck\request;
 
-use FnsCheck\FnsCheckRequest;
-use FnsCheck\response\SignupResponse;
+use kosov\fnscheck\FnsCheckRequest;
+use kosov\fnscheck\response\SignupResponse;
 
 /**
  * Class SignupRequest
  *
  * Класс запроса регистрации.
  *
- * @package FnsCheck\request
+ * @package kosov\fnscheck\request
  * @author kosov <akosov@yandex.ru>
  */
 class SignupRequest extends FnsCheckRequest

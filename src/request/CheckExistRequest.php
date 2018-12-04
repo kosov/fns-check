@@ -1,16 +1,16 @@
 <?php
 
-namespace FnsCheck\request;
+namespace kosov\fnscheck\request;
 
-use FnsCheck\FnsCheckRequest;
-use FnsCheck\response\CheckExistResponse;
+use kosov\fnscheck\FnsCheckRequest;
+use kosov\fnscheck\response\CheckExistResponse;
 
 /**
  * Class CheckExistRequest
  *
  * Класс запроса проверки существования чека.
  *
- * @package FnsCheck\request
+ * @package kosov\fnscheck\request
  * @author kosov <akosov@yandex.ru>
  */
 class CheckExistRequest extends FnsCheckRequest

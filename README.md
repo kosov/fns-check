@@ -35,10 +35,10 @@ composer require php-http/curl-client guzzlehttp/psr7 php-http/message kosov/fns
 
 require '../vendor/autoload.php';
 
-use FnsCheck\FnsCheckAuth;
-use FnsCheck\FnsCheckApi;
-use FnsCheck\request\CheckDetailRequest;
-use FnsCheck\FnsCheckApiException;
+use kosov\fnscheck\FnsCheckAuth;
+use kosov\fnscheck\FnsCheckApi;
+use kosov\fnscheck\request\CheckDetailRequest;
+use kosov\fnscheck\FnsCheckApiException;
 
 // Атрибуты чека
 $checkData = [
@@ -71,7 +71,7 @@ try {
 
 require '../vendor/autoload.php';
 
-use FnsCheck\FnsCheckHelper;
+use kosov\fnscheck\FnsCheckHelper;
 
 // Строка данных, полученных из QR-кода
 $qrCodeString = 't=20180812T2008&s=76.40&fn=8710000101375795&i=4901&fp=3307350167&n=1';

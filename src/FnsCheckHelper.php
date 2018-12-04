@@ -1,13 +1,13 @@
 <?php
 
-namespace FnsCheck;
+namespace kosov\fnscheck;
 
 /**
  * Class FnsCheckHelper
  *
  * Класс-хелпер для работы с электронными чеками.
  *
- * @package FnsCheck
+ * @package kosov\fnscheck
  * @author kosov <akosov@yandex.ru>
  */
 class FnsCheckHelper

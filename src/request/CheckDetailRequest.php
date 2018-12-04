@@ -1,16 +1,16 @@
 <?php
 
-namespace FnsCheck\request;
+namespace kosov\fnscheck\request;
 
-use FnsCheck\FnsCheckRequest;
-use FnsCheck\response\CheckDetailResponse;
+use kosov\fnscheck\FnsCheckRequest;
+use kosov\fnscheck\response\CheckDetailResponse;
 
 /**
  * Class CheckDetailRequest
  *
  * Класс запроса на получение детальной информации по чеку.
  *
- * @package FnsCheck\request
+ * @package kosov\fnscheck\request
  * @author kosov <akosov@yandex.ru>
  */
 class CheckDetailRequest extends FnsCheckRequest

@@ -1,6 +1,6 @@
 <?php
 
-namespace FnsCheck;
+namespace kosov\fnscheck;
 
 use Http\Client\HttpClient;
 use Http\Discovery\HttpClientDiscovery;
@@ -16,14 +16,14 @@ use ReflectionClass;
  * Класс генерации и выполнения запросов к API ФНС
  * по работе с электронными чеками.
  *
- * @package FnsCheck
+ * @package kosov\fnscheck
  * @author kosov <akosov@yandex.ru>
  *
- * @method \FnsCheck\response\SignupResponse signup(array $config = [], FnsCheckAuth $auth = null)
- * @method \FnsCheck\response\RestoreResponse restore(array $config = [], FnsCheckAuth $auth = null)
- * @method \FnsCheck\response\LoginResponse login(array $config = [], FnsCheckAuth $auth = null)
- * @method \FnsCheck\response\CheckExistResponse checkExist(array $config = [], FnsCheckAuth $auth = null)
- * @method \FnsCheck\response\CheckDetailResponse checkDetail(array $config = [], FnsCheckAuth $auth = null)
+ * @method \kosov\fnscheck\response\SignupResponse signup(array $config = [], FnsCheckAuth $auth = null)
+ * @method \kosov\fnscheck\response\RestoreResponse restore(array $config = [], FnsCheckAuth $auth = null)
+ * @method \kosov\fnscheck\response\LoginResponse login(array $config = [], FnsCheckAuth $auth = null)
+ * @method \kosov\fnscheck\response\CheckExistResponse checkExist(array $config = [], FnsCheckAuth $auth = null)
+ * @method \kosov\fnscheck\response\CheckDetailResponse checkDetail(array $config = [], FnsCheckAuth $auth = null)
  */
 class FnsCheckApi
 {

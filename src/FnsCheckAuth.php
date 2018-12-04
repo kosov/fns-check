@@ -1,6 +1,6 @@
 <?php
 
-namespace FnsCheck;
+namespace kosov\fnscheck;
 
 use Http\Message\Authentication\BasicAuth;
 
@@ -9,7 +9,7 @@ use Http\Message\Authentication\BasicAuth;
  *
  * Класс аутентификации пользователя.
  *
- * @package FnsCheck
+ * @package kosov\fnscheck
  * @author kosov <akosov@yandex.ru>
  */
 class FnsCheckAuth

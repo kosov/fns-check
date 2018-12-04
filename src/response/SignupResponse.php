@@ -1,9 +1,9 @@
 <?php
 
-namespace FnsCheck\response;
+namespace kosov\fnscheck\response;
 
-use FnsCheck\FnsCheckApiException;
-use FnsCheck\FnsCheckResponse;
+use kosov\fnscheck\FnsCheckApiException;
+use kosov\fnscheck\FnsCheckResponse;
 
 /**
  * Class SignupResponse
@@ -16,7 +16,7 @@ use FnsCheck\FnsCheckResponse;
  *
  * Более подробно о вариантах ответа сервера написано [здесь](https://habr.com/post/358966/).
  *
- * @package FnsCheck\response
+ * @package kosov\fnscheck\response
  * @author kosov <akosov@yandex.ru>
  */
 class SignupResponse extends FnsCheckResponse

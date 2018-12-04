@@ -1,6 +1,6 @@
 <?php
 
-namespace FnsCheck;
+namespace kosov\fnscheck;
 
 use Psr\Http\Message\ResponseInterface;
 
@@ -9,7 +9,7 @@ use Psr\Http\Message\ResponseInterface;
  *
  * Базовый класс запроса к API ФНС по работе с электронными чеками.
  *
- * @package FnsCheck
+ * @package kosov\fnscheck
  * @author kosov <akosov@yandex.ru>
  */
 abstract class FnsCheckRequest

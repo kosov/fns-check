@@ -1,6 +1,6 @@
 <?php
 
-namespace FnsCheck;
+namespace kosov\fnscheck;
 
 /**
  * Class FnsCheckApiException
@@ -8,7 +8,7 @@ namespace FnsCheck;
  * Класс исключения обработки запроса к API ФНС
  * по проверке электронных чеков.
  *
- * @package FnsCheck
+ * @package kosov\fnscheck
  * @author kosov <akosov@yandex.ru>
  */
 class FnsCheckApiException extends \Exception

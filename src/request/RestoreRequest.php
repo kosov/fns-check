@@ -1,16 +1,16 @@
 <?php
 
-namespace FnsCheck\request;
+namespace kosov\fnscheck\request;
 
-use FnsCheck\FnsCheckRequest;
-use FnsCheck\response\RestoreResponse;
+use kosov\fnscheck\FnsCheckRequest;
+use kosov\fnscheck\response\RestoreResponse;
 
 /**
  * Class RestoreRequest
  *
  * Класс запроса восстановления пароля.
  *
- * @package FnsCheck\request
+ * @package kosov\fnscheck\request
  * @author kosov <akosov@yandex.ru>
  */
 class RestoreRequest extends FnsCheckRequest

@@ -2,9 +2,9 @@
 
 require '../vendor/autoload.php';
 
-use FnsCheck\FnsCheckApi;
-use FnsCheck\request\RestoreRequest;
-use FnsCheck\FnsCheckApiException;
+use kosov\fnscheck\FnsCheckApi;
+use kosov\fnscheck\request\RestoreRequest;
+use kosov\fnscheck\FnsCheckApiException;
 
 // Данные для восстановления пароля пользователя
 $restoreData = [

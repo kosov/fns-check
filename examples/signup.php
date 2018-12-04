@@ -2,9 +2,9 @@
 
 require '../vendor/autoload.php';
 
-use FnsCheck\FnsCheckApi;
-use FnsCheck\request\SignupRequest;
-use FnsCheck\FnsCheckApiException;
+use kosov\fnscheck\FnsCheckApi;
+use kosov\fnscheck\request\SignupRequest;
+use kosov\fnscheck\FnsCheckApiException;
 
 // Данные нового пользователя
 $signupData = [

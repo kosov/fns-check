@@ -2,10 +2,10 @@
 
 require '../vendor/autoload.php';
 
-use FnsCheck\FnsCheckAuth;
-use FnsCheck\FnsCheckApi;
-use FnsCheck\request\CheckExistRequest;
-use FnsCheck\FnsCheckApiException;
+use kosov\fnscheck\FnsCheckAuth;
+use kosov\fnscheck\FnsCheckApi;
+use kosov\fnscheck\request\CheckExistRequest;
+use kosov\fnscheck\FnsCheckApiException;
 
 // Атрибуты чека
 $checkData = [
