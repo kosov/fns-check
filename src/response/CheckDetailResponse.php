@@ -23,6 +23,14 @@ use kosov\fnscheck\FnsCheckResponse;
 class CheckDetailResponse extends FnsCheckResponse
 {
     /**
+     * Код ошибки существования чека.
+     * Рекомендуется использовать при обработке загрузки чеков:
+     * если исклюение имеет соответствующий код,
+     * то необходимо повторить процедуру запроса чека.
+     */
+    const ERROR_CODE_REGISTERED_CHECK = 1;
+
+    /**
      * {@inheritdoc}
      */
     public function processHttpResponse()
@@ -33,10 +41,13 @@ class CheckDetailResponse extends FnsCheckResponse
             return;
         }
 
-        $message = $httpStatusCode !== 202 ?
-            $this->httpResponse->getBody()->getContents() :
-            'Check was registered. Try this call again.';
-
-        throw new FnsCheckApiException($message);
+        if ($httpStatusCode !== 202) {
+            throw new FnsCheckApiException($this->httpResponse->getBody()->getContents());
+        } else {
+            throw new FnsCheckApiException(
+                'Check was registered. Try this call again.',
+                self::ERROR_CODE_REGISTERED_CHECK
+            );
+        }
     }
 }
